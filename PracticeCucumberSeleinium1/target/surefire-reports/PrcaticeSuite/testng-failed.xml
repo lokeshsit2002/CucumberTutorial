@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [PrcaticeSuite]">
+  <listeners>
+    <listener class-name="com.practiceCuSe1.qa.util.PracExtentReporterNG"/>
+    <listener class-name="com.practiceCuSe1.qa.util.PracListeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="PracticeChromeTest(failed)">
+    <classes>
+      <class name="com.practiceCuSe1.qa.runners.TestRunnerChrome">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="selectBrowser"/>
+        </methods>
+      </class> <!-- com.practiceCuSe1.qa.runners.TestRunnerChrome -->
+    </classes>
+  </test> <!-- PracticeChromeTest(failed) -->
+</suite> <!-- Failed suite [PrcaticeSuite] -->
